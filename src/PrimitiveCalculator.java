@@ -14,9 +14,9 @@ public class PrimitiveCalculator {
         double numberTwo = scanner2.nextDouble();
         System.out.println("You input " + numberTwo + " as a second number");
 
-        System.out.println("Sum  is: " + (numberOne + numberTwo));
-        System.out.println("Diff is: " + (numberOne - numberTwo));
-        System.out.println("Mult is: " + (numberOne * numberTwo));
-        System.out.println("Div  is: " + (numberOne / numberTwo));
+        System.out.println("Sum  is: " + Operations.plus(numberOne, numberTwo));
+        System.out.println("Diff is: " + Operations.minus(numberOne, numberTwo));
+        System.out.println("Mult is: " + Operations.multiplication(numberOne, numberTwo));
+        System.out.println("Div  is: " + Operations.division(numberOne, numberTwo));
     }
 }
