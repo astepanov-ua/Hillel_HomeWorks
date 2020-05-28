@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class PrimitiveCalculator {
     public static void main(String[] args) {
         double numberOne, numberTwo;
-        boolean hasNotResult=false;
+        boolean hasNotResult = false;
         String alert = "Please, input correct data";
         String firstNumber = "Please, input first number: ";
         String secondNumber = "Please input second number: ";
+
         System.out.println(firstNumber);
         Scanner scanner1 = new Scanner(System.in);
         if (!scanner1.hasNext()) scanner1.next();
@@ -48,11 +49,10 @@ public class PrimitiveCalculator {
                 }
                 default: {
                     System.out.println(alert);
-                    hasNotResult=true;
+                    hasNotResult = true;
                 }
             }
         }
         while (hasNotResult);
-        System.out.println("Result is : ");
     }
 }
