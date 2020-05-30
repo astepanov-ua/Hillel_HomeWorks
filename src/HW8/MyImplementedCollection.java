@@ -3,7 +3,7 @@ package HW8;
 import java.util.Collection;
 import java.util.Iterator;
 
-public class MyCollection implements Collection {
+public class MyImplementedCollection implements Collection {
     private Object[] data = new Object[10];
     private int numberElements = 0;
 
@@ -143,6 +143,7 @@ public class MyCollection implements Collection {
     private boolean isFull() {
         return (data.length > 0 && data.length == numberElements);
     }
+
     private void checkLenght() {
         if (isEmpty()) {
             data = new Object[10];
