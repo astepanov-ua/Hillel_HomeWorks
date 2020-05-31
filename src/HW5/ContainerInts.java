@@ -1,33 +1,23 @@
-package HW4;
+package HW5;
 
 public class ContainerInts {
-    private int[] array;
+    private int[] array = new int[0];
 
-    /*public HW4.ContainerInts(int [] array){
-        this.array=array;
-    }
-*/
     public void add(int element) {
-        if (isNull()) {
-            array = new int[1];
-            array[0] = element;
-        } else {
-            int[] newArray = new int[array.length + 1];
-            for (int i = 0; i < array.length; i++) {
-                newArray[i] = array[i];
-            }
-            newArray[newArray.length - 1] = element;
-            array = newArray;
+        int[] newArray = new int[array.length + 1];
+        for (int i = 0; i < array.length; i++) {
+            newArray[i] = array[i];
         }
+        newArray[newArray.length - 1] = element;
+        array = newArray;
     }
 
     public void addAll(int[] arrayToAdd) {
-        if (isNull()) {
-            int[] newArray = new int[arrayToAdd.length];
-            for (int i = 0; i <arrayToAdd.length; i++) {
-                newArray[i] = arrayToAdd[i];
+        if (array.length == 0) {
+            array = new int[arrayToAdd.length];
+            for (int i = 0; i < arrayToAdd.length; i++) {
+                array[i] = arrayToAdd[i];
             }
-            array = newArray;
         } else {
             int[] newArray = new int[array.length + arrayToAdd.length];
             for (int i = 0; i < array.length + arrayToAdd.length; i++) {
@@ -38,24 +28,24 @@ public class ContainerInts {
     }
 
     public void clear() {
-        array = null;
+        array = new int[0];
     }
 
     public boolean contains(int element) {
-        if (isNull()) {
-            return false;
-        } else {
-            for (int i : array) {
-                if (i == element) {
-                    return true;
-                }
+        for (int i : array) {
+            if (i == element) {
+                return true;
             }
-            return false;
         }
+        return false;
     }
 
     public int[] getArray() {
-        return array;
+        int[] result = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            result[i] = array[i];
+        }
+        return result;
     }
 
     public int[] getAllIndexesOf(int element) {
@@ -78,8 +68,7 @@ public class ContainerInts {
     }
 
     public int getByIndex(int index) {
-
-        return ((isNull() || index >= array.length || index < 0) ? -1 : array[index]);
+        return (index >= array.length || index < 0) ? -1 : array[index];
     }
 
     public int getFirstIndexOf(int element) {
@@ -96,11 +85,11 @@ public class ContainerInts {
     }
 
     public int getSize() {
-        return (isNull()) ? 0 : array.length;
+        return array.length;
     }
 
     public boolean isEqualsByLink(int[] arrayToCheck) {
-        return !isNull() && (array == arrayToCheck);
+        return (array == arrayToCheck);
     }
 
     public boolean isEqualsByContent(int[] arrayToCheck) {
@@ -117,19 +106,10 @@ public class ContainerInts {
     }
 
     public void printArrayInLane() {
-        if (isNull()) {
-            System.out.println("Now array is empty");
-        } else {
-            //System.out.println("Now array contains next element(-s):");
-            for (int i : array) {
-                System.out.print(i + " ");
-            }
-            System.out.println();
+        for (int i : array) {
+            System.out.print(i + " ");
         }
-    }
-
-    private boolean isNull() {
-        return array == null;
+        System.out.println();
     }
 
     public void sort() {

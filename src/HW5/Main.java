@@ -1,10 +1,10 @@
-package HW4;
+package HW5;
 
 public class Main {
     public static void main(String[] args) {
         //создаем рабочий контейнер
         ContainerInts ints = new ContainerInts();
-        int temp = 12;
+        int temp = 8;
         System.out.println();
 
         //проверяем работу метода add

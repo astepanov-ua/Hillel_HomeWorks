@@ -1,4 +1,4 @@
-package HW3;
+package HW4;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -120,7 +120,7 @@ public class ClassTable {
 
     public static void printTable(EducationPlan educationPlan) {
         if (educationPlan.students != null) {
-            System.out.println("HW3.Student\t\t\tMarks");
+            System.out.println("HW4.Student\t\t\tMarks");
             for (Student student : educationPlan.students) {
                 System.out.println(student.surname + "\t" +"\t" +"\t" + Arrays.toString(student.marks));
             }
