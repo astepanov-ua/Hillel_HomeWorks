@@ -6,7 +6,7 @@ import HW6.GuideDog;
 
 public class MainDemo {
     public static void main(String[] args) {
-        MyImplementedCollection myPets = new MyImplementedCollection();
+        MyArrayList myPets = new MyArrayList();
         System.out.println("MyCollection size is : " + myPets.size());
         System.out.println("is MyCollection empty? - " + myPets.isEmpty());
         System.out.println("Add one element to MyCollection ");
@@ -23,7 +23,7 @@ public class MainDemo {
         myPets.remove(new Dog("Bonnie"));
         System.out.println("Bonnie deleted");
         System.out.println("Now I Have: " + myPets);
-        MyImplementedCollection removePets = new MyImplementedCollection();
+        MyArrayList removePets = new MyArrayList();
         removePets.add(new Cat("Kyle"));
         removePets.add(new Dog("Billy"));
         System.out.println("I want remove these pets: " + removePets);
@@ -34,7 +34,7 @@ public class MainDemo {
         myPets.clear();
         System.out.println("Now I Have: " + myPets);
         System.out.println("MyCollection size is : " + myPets.size());
-        MyImplementedCollection newPets = new MyImplementedCollection();
+        MyArrayList newPets = new MyArrayList();
         newPets.addAll(removePets);
         System.out.println("Add few pets");
         myPets.add(new GuideDog("Guidy", true));
@@ -44,13 +44,13 @@ public class MainDemo {
         myPets.add(new Cat("Kyle"));
         System.out.println("Now I Have: " + myPets);
         System.out.println("MyCollection size is : " + myPets.size());
-        MyImplementedCollection retainPets = new MyImplementedCollection();
+        MyArrayList retainPets = new MyArrayList();
         retainPets.addAll(removePets);
         System.out.println("I want retain these pets: " + retainPets);
         myPets.retainAll(retainPets);
         System.out.println("Now I Have: " + myPets);
         System.out.println("MyCollection size is : " + myPets.size());
-        MyImplementedCollection containsPets = new MyImplementedCollection();
+        MyArrayList containsPets = new MyArrayList();
         containsPets.addAll(myPets);
         containsPets.remove(new Cat("Kyle"));
         containsPets.add(new Dog("Bonnie"));

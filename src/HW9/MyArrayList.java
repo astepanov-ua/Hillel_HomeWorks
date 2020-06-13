@@ -3,7 +3,7 @@ package HW9;
 import java.util.Collection;
 import java.util.Iterator;
 
-public class MyImplementedCollection implements Collection {
+public class MyArrayList implements Collection {
     private Object[] data = new Object[10];
     private int numberElements = 0;
 

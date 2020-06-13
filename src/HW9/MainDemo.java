@@ -4,7 +4,7 @@ public class MainDemo {
     public static void main(String[] args) {
         System.out.println();
         int sizeToDemo = 23;
-        MyImplementedCollection myNumbers = new MyImplementedCollection();
+        MyArrayList myNumbers = new MyArrayList();
         for (int i = 0; i < sizeToDemo; i++) {
             int r = (int) (Math.random() * 100);
             myNumbers.add(r);
