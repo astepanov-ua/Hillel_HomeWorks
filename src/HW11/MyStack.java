@@ -19,7 +19,7 @@ public class MyStack implements Collection {
         private Object data;
     }
 
-    Node head = new Node();
+    Node head;
     private Node current = null;
     private Node tail = null;
     private int size = 0;
@@ -45,8 +45,8 @@ public class MyStack implements Collection {
         if (o == null) {
             return false;
         }
-        if (head.data == null) {
-            head.next = new Node();
+        if (head == null) {
+            head = new Node();
             head.data = o;
             tail = head;
         } else {

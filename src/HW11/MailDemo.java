@@ -28,5 +28,21 @@ public class MailDemo {
             System.out.println(o);
         }
 
+        System.out.println();
+        MyArrayList emptyArrayList = new MyArrayList();
+        System.out.println("Test Iterator from empty MyArrayList:");
+        for (Object o : emptyArrayList) {
+            System.out.println(o);
+        }
+
+        System.out.println();
+
+        MyStack emptyStack = new MyStack();
+        System.out.println("Test Iterator from empty MyStack:");
+        for (Object o : emptyStack) {
+            System.out.println(o);
+        }
+
+
     }
 }
