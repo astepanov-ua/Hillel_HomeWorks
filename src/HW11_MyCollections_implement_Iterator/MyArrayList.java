@@ -1,4 +1,4 @@
-package HW11;
+package HW11_MyCollections_implement_Iterator;
 
 import java.util.Collection;
 import java.util.Iterator;

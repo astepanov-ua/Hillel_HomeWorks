@@ -1,4 +1,4 @@
-package HW10;
+package HW10_MyLinkedList_implements_Collecton_;
 
 import HW6.Cat;
 import HW6.Dog;

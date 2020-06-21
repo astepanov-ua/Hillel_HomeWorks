@@ -1,4 +1,4 @@
-package HW10;
+package HW10_MyLinkedList_implements_Collecton_;
 
 import java.util.Collection;
 import java.util.Iterator;
