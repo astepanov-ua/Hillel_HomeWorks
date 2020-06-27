@@ -1,6 +1,6 @@
 package HW6;
 
-public class HomeAnimal extends Animal {
+public class HomeAnimal extends Animal implements Comparable{
     private boolean isVaccinated;
 
     public String getName() {
@@ -40,4 +40,9 @@ public class HomeAnimal extends Animal {
         return name.equals(that.name);
     }
 
+    @Override
+    public int compareTo(Object o) {
+        HomeAnimal anotherHomeAnimal = (HomeAnimal) o;
+        return name.compareTo(anotherHomeAnimal.name);
+    }
 }

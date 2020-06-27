@@ -1,7 +1,5 @@
 package HW13;
 
-import HW7.MyCollection;
-
 public class MainDemo {
     public static void main(String[] args) {
         MyBinaryTreeComparator intComparator = new MyBinaryTreeComparator();

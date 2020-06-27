@@ -1,4 +1,4 @@
-package HW12_MyArrayList_mplements_List;
+package HW12_MyArrayList_Implements_List;
 
 import java.util.*;
 
@@ -11,9 +11,9 @@ public class MyArrayList implements List {
         dataArray = new Object[size];
     }
 
-    private MyArrayList(int lenght) {
-        size = 0;
-        dataArray = new Object[lenght];
+    private MyArrayList(int size) {
+        this.size = 0;
+        dataArray = new Object[size];
     }
 
     @Override
@@ -96,7 +96,7 @@ public class MyArrayList implements List {
             Object temp;
             while (needToSort) {
                 for (int i = 0; i < dataArray.length - 1; i++) {
-                    if (c.compare(dataArray[i + 1], dataArray[i]) < 0) {
+                    if (dataArray[i + 1] != null && c.compare(dataArray[i + 1], dataArray[i]) < 0) {
                         temp = dataArray[i];
                         dataArray[i] = dataArray[i + 1];
                         dataArray[i + 1] = temp;
@@ -119,8 +119,7 @@ public class MyArrayList implements List {
 
     @Override
     public Object get(int index) {
-        Object toReturn;
-        return toReturn = (isIndexCorrect(index)) ? dataArray[index] : null;
+        return (isIndexCorrect(index)) ? dataArray[index] : null;
     }
 
     @Override
