@@ -34,9 +34,7 @@ public class HomeAnimal extends Animal implements Comparable{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         HomeAnimal that = (HomeAnimal) o;
-
         return name.equals(that.name);
     }
 
