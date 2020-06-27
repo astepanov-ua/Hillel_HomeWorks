@@ -9,6 +9,7 @@ import java.util.Comparator;
 
 public class MainDemo {
     public static void main(String[] args) {
+
         MyArrayList myPets = new MyArrayList();
         System.out.println("MyCollection size is : " + myPets.size());
         System.out.println("is MyCollection empty? - " + myPets.isEmpty());
@@ -87,8 +88,7 @@ public class MainDemo {
         System.out.println("SubList from 2 to 23 is: " + myPets.subList(2, 23));
         System.out.println("SubList from 2 to 4 is: " + myPets.subList(2, 4));
         System.out.println("SubList from 1 to 1 is: " + myPets.subList(1, 1));
-
-
         System.out.println("Thank You!");
+
     }
 }
