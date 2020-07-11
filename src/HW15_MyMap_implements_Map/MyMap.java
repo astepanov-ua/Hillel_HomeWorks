@@ -1,8 +1,4 @@
 package HW15_MyMap_implements_Map;
-
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
-
 import java.util.*;
 
 public class MyMap implements Map {
@@ -123,7 +119,7 @@ public class MyMap implements Map {
     }
 
     @Override
-    public void putAll(@NotNull Map m) {
+    public void putAll( Map m) {
         for (Object o : m.keySet()) {
             put(o, m.get(o));
         }
@@ -135,7 +131,7 @@ public class MyMap implements Map {
         table = new MyEntry[100];
     }
 
-    @NotNull
+
     @Override
     public Set keySet() {
         Set keysSet = new HashSet();
@@ -147,7 +143,7 @@ public class MyMap implements Map {
         return keysSet;
     }
 
-    @NotNull
+
     @Override
     public Collection values() {
         Collection valuesCollection = new ArrayList();
@@ -160,7 +156,7 @@ public class MyMap implements Map {
         return valuesCollection;
     }
 
-    @NotNull
+
     @Override
     public Set entrySet() {
         Set entrySet = new HashSet();
@@ -190,7 +186,7 @@ public class MyMap implements Map {
         return defaultValue;
     }
 
-    @Nullable
+
     @Override
     public Object putIfAbsent(Object key, Object value) {
         int index = key.hashCode() % 100;
