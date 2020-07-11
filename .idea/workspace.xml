@@ -25,24 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW12 complete!">
-      <change afterPath="$PROJECT_DIR$/lib/annotations-19.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW13/IntComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW13/MyBinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW13-14 complete (implements Collectoin)&#10;without Iterator and Set">
+      <change afterPath="$PROJECT_DIR$/src/HW15_MyMap_implements_Map/MainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW15_MyMap_implements_Map/MyMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW15_MyMap_implements_Map/MyMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_HomeWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_HomeWorks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW12_MyArrayList_Implements_List/MainDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW12_MyArrayList_Implements_List/MainDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MainDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MainDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTreeComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/HomeAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/HomeAnimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/META-INF/Hillel_HomeWorks.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW12_MyArrayList_Implements_List/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW12_MyArrayList_Implements_List/MainDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW13/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW13/MainDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW13/MyBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW13/MyBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW13/MyBinaryTreeComparator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -84,62 +75,24 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="HW15_MyMap_implements_Map" />
       <recent name="HW13" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="HW11" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\HW12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBinaryTreeTest">
-    <configuration name="MainDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW8.MainDemo" />
-      <module name="Hillel_HomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW12_MyArrayList_Implements_List.MainDemo" />
-      <module name="Hillel_HomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW12_MyArrayList_Implements_List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW13.MainDemo" />
-      <module name="Hillel_HomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyMapTest">
     <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW10.MainDemo" />
       <module name="Hillel_HomeWorks" />
@@ -153,32 +106,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW13.*" />
+          <option name="PATTERN" value="HW15_MyMap_implements_Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW13" />
-      <option name="MAIN_CLASS_NAME" value="HW13.MyBinaryTreeTest" />
+      <option name="PACKAGE_NAME" value="HW15_MyMap_implements_Map" />
+      <option name="MAIN_CLASS_NAME" value="HW15_MyMap_implements_Map.MyMapTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBinaryTreeTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyMapTest.getOrDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW13.*" />
+          <option name="PATTERN" value="HW15_MyMap_implements_Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW13" />
-      <option name="MAIN_CLASS_NAME" value="HW13.MyBinaryTreeTest" />
-      <option name="METHOD_NAME" value="size" />
+      <option name="PACKAGE_NAME" value="HW15_MyMap_implements_Map" />
+      <option name="MAIN_CLASS_NAME" value="HW15_MyMap_implements_Map.MyMapTest" />
+      <option name="METHOD_NAME" value="getOrDefault" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMapTest.keySet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hillel_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW15_MyMap_implements_Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW15_MyMap_implements_Map" />
+      <option name="MAIN_CLASS_NAME" value="HW15_MyMap_implements_Map.MyMapTest" />
+      <option name="METHOD_NAME" value="keySet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMapTest.putIfAbsent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hillel_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW15_MyMap_implements_Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW15_MyMap_implements_Map" />
+      <option name="MAIN_CLASS_NAME" value="HW15_MyMap_implements_Map.MyMapTest" />
+      <option name="METHOD_NAME" value="putIfAbsent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMapTest.values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hillel_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW15_MyMap_implements_Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW15_MyMap_implements_Map" />
+      <option name="MAIN_CLASS_NAME" value="HW15_MyMap_implements_Map.MyMapTest" />
+      <option name="METHOD_NAME" value="values" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,10 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBinaryTreeTest" />
-        <item itemvalue="JUnit.MyBinaryTreeTest.size" />
-        <item itemvalue="Application.MainDemo" />
-        <item itemvalue="Application.MainDemo (1)" />
+        <item itemvalue="JUnit.MyMapTest" />
+        <item itemvalue="JUnit.MyMapTest.values" />
+        <item itemvalue="JUnit.MyMapTest.keySet" />
+        <item itemvalue="JUnit.MyMapTest.putIfAbsent" />
+        <item itemvalue="JUnit.MyMapTest.getOrDefault" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593243499883</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HW13-14 complete (implements Collectoin)&#10;without Iterator and Set">
+      <created>1593289235418</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593289235418</updated>
+    </task>
+    <task id="LOCAL-00010" summary="HW13-14 complete (implements Collectoin)&#10;without Iterator and Set">
+      <created>1593289262956</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593289262956</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,78 +299,83 @@
     <MESSAGE value="HW12-14 in process" />
     <MESSAGE value="HW12 complete" />
     <MESSAGE value="HW12 complete!" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW12 complete!" />
+    <MESSAGE value="HW13-14 complete (implements Collectoin)&#10;without Iterator and Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW13-14 complete (implements Collectoin)&#10;without Iterator and Set" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="338" y="35" key="#MyMapTest.entrySet" timestamp="1594488530189">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="338" y="35" key="#MyMapTest.entrySet/0.0.1474.864@0.0.1474.864" timestamp="1594488530189" />
     <state x="622" y="294" key="#Notifications" timestamp="1592063115964">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="622" y="294" key="#Notifications/0.0.1474.864@0.0.1474.864" timestamp="1592063115964" />
-    <state x="93" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593274361138">
+    <state x="93" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593957611809">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="93" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1474.864@0.0.1474.864" timestamp="1593274361138" />
-    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1593265542490">
+    <state x="93" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1474.864@0.0.1474.864" timestamp="1593957611809" />
+    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1594488413683">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1593265542490" />
+    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1594488413683" />
     <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1592769126305">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1592769126305" />
-    <state width="1429" height="257" key="GridCell.Tab.0.bottom" timestamp="1593285869795">
+    <state width="1429" height="312" key="GridCell.Tab.0.bottom" timestamp="1594490074186">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="257" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1593285869795" />
+    <state width="1429" height="312" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1594490074186" />
     <state width="1489" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="257" key="GridCell.Tab.0.center" timestamp="1593285869794">
+    <state width="1429" height="312" key="GridCell.Tab.0.center" timestamp="1594490074185">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="257" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1593285869794" />
+    <state width="1429" height="312" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1594490074185" />
     <state width="1489" height="275" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="257" key="GridCell.Tab.0.left" timestamp="1593285869794">
+    <state width="1429" height="312" key="GridCell.Tab.0.left" timestamp="1594490074185">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="257" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1593285869794" />
+    <state width="1429" height="312" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1594490074185" />
     <state width="1489" height="275" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="257" key="GridCell.Tab.0.right" timestamp="1593285869794">
+    <state width="1429" height="312" key="GridCell.Tab.0.right" timestamp="1594490074185">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="257" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1593285869794" />
+    <state width="1429" height="312" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1594490074185" />
     <state width="1489" height="275" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="275" key="GridCell.Tab.1.bottom" timestamp="1592770312226">
+    <state width="1429" height="275" key="GridCell.Tab.1.bottom" timestamp="1594488121849">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1592770312226" />
+    <state width="1429" height="275" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1594488121849" />
     <state width="1489" height="275" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.center" timestamp="1592770312226">
+    <state width="1429" height="275" key="GridCell.Tab.1.center" timestamp="1594488121849">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1592770312226" />
+    <state width="1429" height="275" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1594488121849" />
     <state width="1489" height="275" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.left" timestamp="1592770312226">
+    <state width="1429" height="275" key="GridCell.Tab.1.left" timestamp="1594488121849">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1592770312226" />
+    <state width="1429" height="275" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1594488121849" />
     <state width="1489" height="275" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.right" timestamp="1592770312226">
+    <state width="1429" height="275" key="GridCell.Tab.1.right" timestamp="1594488121849">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1592770312226" />
+    <state width="1429" height="275" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1594488121849" />
     <state width="1489" height="275" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state x="217" y="6" key="SettingsEditor" timestamp="1593251264559">
+    <state x="217" y="6" key="SettingsEditor" timestamp="1594486880779">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="217" y="6" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1593251264559" />
+    <state x="217" y="6" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1594486880779" />
     <state x="226" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592770060586" />
     <state x="459" y="177" width="540" height="524" key="StructurePopup" timestamp="1593251661191">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="459" y="177" width="540" height="524" key="StructurePopup/0.0.1474.864@0.0.1474.864" timestamp="1593251661191" />
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1593243513614">
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1593289274443">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1593243513614" />
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1593289274443" />
     <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593257715963">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -363,10 +384,22 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="546" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1593251694861" />
-    <state x="501" y="99" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593251294625">
+    <state x="501" y="99" width="758" height="633" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593873573995">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="501" y="99" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1474.864@0.0.1474.864" timestamp="1593251294625" />
+    <state x="501" y="99" width="758" height="633" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1474.864@0.0.1474.864" timestamp="1593873573995" />
+    <state x="93" y="93" width="1288" height="678" key="dock-window-1" timestamp="1593944360015">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="93" y="93" width="1288" height="678" key="dock-window-1/0.0.1474.864@0.0.1474.864" timestamp="1593944360015" />
+    <state x="93" y="93" width="1288" height="678" key="dock-window-2" timestamp="1593944360016">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="93" y="93" width="1288" height="678" key="dock-window-2/0.0.1474.864@0.0.1474.864" timestamp="1593944360016" />
+    <state x="93" y="93" width="1288" height="678" key="dock-window-3" timestamp="1593944360016">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="93" y="93" width="1288" height="678" key="dock-window-3/0.0.1474.864@0.0.1474.864" timestamp="1593944360016" />
     <state x="877" y="363" key="extract.method.dialog" timestamp="1592765649209">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -375,18 +408,18 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="447" y="165" width="579" height="534" key="find.popup/0.0.1474.864@0.0.1474.864" timestamp="1593260220057" />
-    <state x="443" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1593270585204">
+    <state x="443" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1593956014512">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="443" y="189" key="refactoring.ChangeSignatureDialog/0.0.1474.864@0.0.1474.864" timestamp="1593270585204" />
+    <state x="443" y="189" key="refactoring.ChangeSignatureDialog/0.0.1474.864@0.0.1474.864" timestamp="1593956014512" />
     <state x="394" y="199" key="run.anything.popup" timestamp="1593268769392">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="394" y="199" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1593268769392" />
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1593251260295">
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1593872593394">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1593251260295" />
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1593872593394" />
     <state x="417" y="181" width="701" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592769924816" />
   </component>
 </project>
