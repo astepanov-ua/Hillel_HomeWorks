@@ -1,4 +1,4 @@
-package HW19_Save_to_JSON;
+package HW18_Save_to_JSON;
 
 public class Worker {
     private static int id = 0;

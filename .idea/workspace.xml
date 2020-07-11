@@ -25,22 +25,72 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW15 complete (implements Map) with tests">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JSON/MainDemoJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JSON/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_HomeWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_HomeWorks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/annotations-19.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MainDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMap$MyEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMap$MyEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/META-INF/Hillel_HomeWorks.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW15_MyMap_implements_Map/MyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW15_MyMap_implements_Map/MyMap.java" afterDir="false" />
+    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW19 (saving to *.json)">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW18_Save_to_JSON/output_workers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW1/PrimitiveCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW10_MyLinkedList_implements_Collecton_/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW10_MyLinkedList_implements_Collecton_/MyStack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW10_MyLinkedList_implements_Collecton_/MyStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW10_MyLinkedList_implements_Collecton_/MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW11_MyCollections_implement_Iterator/MailDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW11_MyCollections_implement_Iterator/MyArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW11_MyCollections_implement_Iterator/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW11_MyCollections_implement_Iterator/MyStack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW11_MyCollections_implement_Iterator/MyStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW11_MyCollections_implement_Iterator/MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW12_MyArrayList_Implements_List/ByNameHomeAnimalComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW12_MyArrayList_Implements_List/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW12_MyArrayList_Implements_List/MyArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW12_MyArrayList_Implements_List/MyArrayList$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW12_MyArrayList_Implements_List/MyArrayList$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW12_MyArrayList_Implements_List/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/IntComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW13/MyBinaryTreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMap$MyEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW15_MyMap_implements_Map/MyMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW2/AverageCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW2/BankCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW2/ConsoleDrawing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW2/NumberAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW3/DigitCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW3/PointAndRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW4/ClassTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW4/EducationPlan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW4/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW5/ContainerInts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Crocodile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Fishy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Giraffe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/GuideDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/HomeAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Humster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Lion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/PredatorAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/WildAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW6/Wolf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW7/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW7/MyCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW8/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW8/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW9_Search_in_MyCollectoin_and_Fibonachi/FibonacciNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW9_Search_in_MyCollectoin_and_Fibonachi/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/HW9_Search_in_MyCollectoin_and_Fibonachi/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/JSON/MainDemoJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/JSON/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hillel_HomeWorks/JSON/output_workers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW19_Save_to_JSON/MainDemoJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW18_Save_to_JSON/MainDemoJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW19_Save_to_JSON/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW18_Save_to_JSON/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +156,7 @@
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW19_Save_to_JSON.*" />
+          <option name="PATTERN" value="HW18_Save_to_JSON.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +165,11 @@
       </method>
     </configuration>
     <configuration name="MainDemoJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW19_Save_to_JSON.MainDemoJson" />
+      <option name="MAIN_CLASS_NAME" value="HW18_Save_to_JSON.MainDemoJson" />
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW19_Save_to_JSON.*" />
+          <option name="PATTERN" value="HW18_Save_to_JSON.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594490603959</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="HW19 (saving to *.json)">
+      <created>1594505366721</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594505366721</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +354,8 @@
     <MESSAGE value="HW12 complete!" />
     <MESSAGE value="HW13-14 complete (implements Collectoin)&#10;without Iterator and Set" />
     <MESSAGE value="HW15 complete (implements Map) with tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW15 complete (implements Map) with tests" />
+    <MESSAGE value="HW19 (saving to *.json)" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW19 (saving to *.json)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="110" key="#Inspections" timestamp="1594503965733">
@@ -381,10 +439,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="459" y="177" width="540" height="524" key="StructurePopup/0.0.1474.864@0.0.1474.864" timestamp="1593251661191" />
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1594490686311">
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1594505620995">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1594490686311" />
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1594505620995" />
     <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594502147872">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
