@@ -1,6 +1,6 @@
 package HW18_Save_to_JSON;
 
-public class Worker {
+public class Worker implements Comparable<Worker> {
     private static int id = 0;
     private String name;
     private int age;
@@ -37,7 +37,7 @@ public class Worker {
         Worker worker = (Worker) o;
 
         if (age != worker.age) return false;
-        if (workerID != worker.workerID) return false;
+        //if (workerID != worker.workerID) return false;
         return name.equals(worker.name);
     }
 
@@ -47,5 +47,10 @@ public class Worker {
         result = 31 * result + age;
         result = 31 * result + workerID;
         return result;
+    }
+
+    @Override
+    public int compareTo(Worker o) {
+        return 0;
     }
 }
