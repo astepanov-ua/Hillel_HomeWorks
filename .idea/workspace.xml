@@ -26,8 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests">
-      <change afterPath="$PROJECT_DIR$/src/HW_19_Indexes_of_two_ints_equal_some_value/MainDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW_19_Indexes_of_two_ints_equal_some_value/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW_19_Indexes_of_two_ints_equal_some_value/MainDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1cpLVPWp5sZk0qqHFe5hpKCPzle" />
   <component name="ProjectLevelVcsManager">
