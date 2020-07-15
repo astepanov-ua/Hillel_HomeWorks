@@ -25,8 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW19: complete. O(n)-notation">
       <change beforePath="$PROJECT_DIR$/src/HW_19_Indexes_of_two_ints_equal_some_value/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW_19_Indexes_of_two_ints_equal_some_value/MainDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594562225705</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HW19: complete. O(n)-notation">
+      <created>1594846627215</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594846627215</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,7 +329,8 @@
     <MESSAGE value="HW19 (saving to *.json)" />
     <MESSAGE value="HW18 (saving to *.json)&#10;complete" />
     <MESSAGE value="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests" />
+    <MESSAGE value="HW19: complete. O(n)-notation" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW19: complete. O(n)-notation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="110" key="#Inspections" timestamp="1594503965733">
@@ -402,6 +409,14 @@
     </state>
     <state width="1429" height="275" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1594562525627" />
     <state width="1489" height="275" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
+    <state x="139" y="68" key="MergeDialog" timestamp="1594846707477">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="139" y="68" key="MergeDialog/0.0.1474.864@0.0.1474.864" timestamp="1594846707477" />
+    <state x="375" y="192" key="MultipleFileMergeDialog" timestamp="1594846707493">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="375" y="192" key="MultipleFileMergeDialog/0.0.1474.864@0.0.1474.864" timestamp="1594846707493" />
     <state x="100" y="0" key="SettingsEditor" timestamp="1594502161723">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
