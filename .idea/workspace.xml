@@ -25,12 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW18 (saving to *.json)&#10;complete">
-      <change afterPath="$PROJECT_DIR$/src/HW17_Collection_with_Generiks/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW17_Collection_with_Generiks/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW17_Collection_with_Generiks/MyStackTest.java" afterDir="false" />
+    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests">
+      <change afterPath="$PROJECT_DIR$/src/HW_19_Indexes_of_two_ints_equal_some_value/MainDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW18_Save_to_JSON/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW18_Save_to_JSON/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +89,20 @@
       <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\HW12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyStackTest.iterator">
+  <component name="RunManager" selected="Application.MainDemo">
+    <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW_19_Indexes_of_two_ints_equal_some_value.MainDemo" />
+      <module name="Hillel_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW_19_Indexes_of_two_ints_equal_some_value.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyStackTest.containsAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
@@ -120,22 +130,6 @@
       <option name="PACKAGE_NAME" value="HW17_Collection_with_Generiks" />
       <option name="MAIN_CLASS_NAME" value="HW17_Collection_with_Generiks.MyStackTest" />
       <option name="METHOD_NAME" value="iterator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyStackTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hillel_HomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW17_Collection_with_Generiks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HW17_Collection_with_Generiks" />
-      <option name="MAIN_CLASS_NAME" value="HW17_Collection_with_Generiks.MyStackTest" />
-      <option name="METHOD_NAME" value="remove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDemo" />
         <item itemvalue="JUnit.MyStackTest.iterator" />
         <item itemvalue="JUnit.MyStackTest.containsAll" />
         <item itemvalue="JUnit.MyStackTest.removeAll" />
         <item itemvalue="JUnit.MyStackTest.retainAll" />
-        <item itemvalue="JUnit.MyStackTest.remove" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594505655187</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests">
+      <created>1594562225705</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594562225705</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,7 +316,8 @@
     <MESSAGE value="HW15 complete (implements Map) with tests" />
     <MESSAGE value="HW19 (saving to *.json)" />
     <MESSAGE value="HW18 (saving to *.json)&#10;complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW18 (saving to *.json)&#10;complete" />
+    <MESSAGE value="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="110" key="#Inspections" timestamp="1594503965733">
@@ -354,45 +356,45 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1594494448337" />
-    <state width="1429" height="312" key="GridCell.Tab.0.bottom" timestamp="1594561965725">
+    <state width="1429" height="142" key="GridCell.Tab.0.bottom" timestamp="1594841449886">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="312" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1594561965725" />
+    <state width="1429" height="142" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1594841449886" />
     <state width="1489" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="312" key="GridCell.Tab.0.center" timestamp="1594561965725">
+    <state width="1429" height="142" key="GridCell.Tab.0.center" timestamp="1594841449886">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="312" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1594561965725" />
+    <state width="1429" height="142" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1594841449886" />
     <state width="1489" height="275" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="312" key="GridCell.Tab.0.left" timestamp="1594561965725">
+    <state width="1429" height="142" key="GridCell.Tab.0.left" timestamp="1594841449886">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="312" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1594561965725" />
+    <state width="1429" height="142" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1594841449886" />
     <state width="1489" height="275" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="312" key="GridCell.Tab.0.right" timestamp="1594561965725">
+    <state width="1429" height="142" key="GridCell.Tab.0.right" timestamp="1594841449886">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="312" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1594561965725" />
+    <state width="1429" height="142" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1594841449886" />
     <state width="1489" height="275" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="275" key="GridCell.Tab.1.bottom" timestamp="1594561315787">
+    <state width="1429" height="275" key="GridCell.Tab.1.bottom" timestamp="1594562525628">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1594561315787" />
+    <state width="1429" height="275" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1594562525628" />
     <state width="1489" height="275" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.center" timestamp="1594561315786">
+    <state width="1429" height="275" key="GridCell.Tab.1.center" timestamp="1594562525626">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1594561315786" />
+    <state width="1429" height="275" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1594562525626" />
     <state width="1489" height="275" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.left" timestamp="1594561315786">
+    <state width="1429" height="275" key="GridCell.Tab.1.left" timestamp="1594562525625">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1594561315786" />
+    <state width="1429" height="275" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1594562525625" />
     <state width="1489" height="275" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.right" timestamp="1594561315786">
+    <state width="1429" height="275" key="GridCell.Tab.1.right" timestamp="1594562525627">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1594561315786" />
+    <state width="1429" height="275" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1594562525627" />
     <state width="1489" height="275" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
     <state x="100" y="0" key="SettingsEditor" timestamp="1594502161723">
       <screen x="0" y="0" width="1474" height="864" />
@@ -407,10 +409,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="571" height="452" key="SwitcherDM/0.0.1474.864@0.0.1474.864" timestamp="1594556109038" />
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1594505681640">
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1594562242929">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1594505681640" />
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1594562242929" />
     <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594502147872">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -447,10 +449,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="443" y="189" key="refactoring.ChangeSignatureDialog/0.0.1474.864@0.0.1474.864" timestamp="1593956014512" />
-    <state x="394" y="199" key="run.anything.popup" timestamp="1593268769392">
+    <state x="394" y="199" key="run.anything.popup" timestamp="1594839856220">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="394" y="199" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1593268769392" />
+    <state x="394" y="199" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1594839856220" />
     <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1594494352736">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
