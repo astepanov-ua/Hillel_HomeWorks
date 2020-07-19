@@ -1,4 +1,4 @@
-package HW_19_Indexes_of_two_ints_equal_some_value;
+package HW19_Indexes_of_two_ints_equal_some_value;
 
 import java.util.ArrayList;
 import java.util.HashMap;
