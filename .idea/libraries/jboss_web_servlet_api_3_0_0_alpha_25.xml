@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jboss.web:servlet-api:3.0.0.alpha-25" type="repository">
+    <properties maven-id="jboss.web:servlet-api:3.0.0.alpha-25" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jboss/web/servlet-api/3.0.0.alpha-25/servlet-api-3.0.0.alpha-25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

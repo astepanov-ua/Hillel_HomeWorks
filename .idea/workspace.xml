@@ -25,15 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW19: complete. O(n)-notation">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_activation_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_api_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_core_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_impl_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW20_MD5_Brote_Force_Decrypt/MainDemo.java" afterDir="false" />
+    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW24: pow (log(n))">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jboss_web_servlet_api_3_0_0_alpha_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW23_Tomcat_HelloWorld/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW24_Pow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW24_Pow/PowerCalcTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hillel_HomeWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_HomeWorks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW_19_Indexes_of_two_ints_equal_some_value/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW19_Indexes_of_two_ints_equal_some_value/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW19_Indexes_of_two_ints_equal_some_value/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW20_Indexes_of_two_ints_equal_some_value/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW20_MD5_Brote_Force_Decrypt/MainDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW24_Pow/PowerCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW24_Pow/PowerCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,36 +79,37 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/HW12" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/servlet-api-3.0-alpha-1-javadoc.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="HW24_Pow" />
       <recent name="HW17_Collection_with_Generiks" />
       <recent name="HW15_MyMap_implements_Map" />
       <recent name="HW13" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="HW17_Collection_with_Generiks" />
       <recent name="HW11" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\HW12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainDemo (1)">
-    <configuration name="MainDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW20_MD5_Brote_Force_Decrypt.MainDemo" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW24_Pow.Main" />
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW20_MD5_Brote_Force_Decrypt.*" />
+          <option name="PATTERN" value="HW24_Pow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
       </method>
     </configuration>
     <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW19_Indexes_of_two_ints_equal_some_value.MainDemo" />
+      <option name="MAIN_CLASS_NAME" value="HW22_MD5_Brote_Force_Decrypt.MainDemo" />
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW19_Indexes_of_two_ints_equal_some_value.*" />
+          <option name="PATTERN" value="HW22_MD5_Brote_Force_Decrypt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,49 +130,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStackTest.containsAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PowerCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW24_Pow.PowerCalc" />
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW17_Collection_with_Generiks.*" />
+          <option name="PATTERN" value="HW24_Pow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW17_Collection_with_Generiks" />
-      <option name="MAIN_CLASS_NAME" value="HW17_Collection_with_Generiks.MyStackTest" />
-      <option name="METHOD_NAME" value="containsAll" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerCalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hillel_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW24_Pow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW24_Pow" />
+      <option name="MAIN_CLASS_NAME" value="HW24_Pow.PowerCalcTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerCalcTest.differentCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hillel_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW24_Pow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW24_Pow" />
+      <option name="MAIN_CLASS_NAME" value="HW24_Pow.PowerCalcTest" />
+      <option name="METHOD_NAME" value="differentCombinations" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStackTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PowerCalcTest.zeroPow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW17_Collection_with_Generiks.*" />
+          <option name="PATTERN" value="HW24_Pow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW17_Collection_with_Generiks" />
-      <option name="MAIN_CLASS_NAME" value="HW17_Collection_with_Generiks.MyStackTest" />
-      <option name="METHOD_NAME" value="iterator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyStackTest.removeAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hillel_HomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW17_Collection_with_Generiks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HW17_Collection_with_Generiks" />
-      <option name="MAIN_CLASS_NAME" value="HW17_Collection_with_Generiks.MyStackTest" />
-      <option name="METHOD_NAME" value="removeAll" />
+      <option name="PACKAGE_NAME" value="HW24_Pow" />
+      <option name="MAIN_CLASS_NAME" value="HW24_Pow.PowerCalcTest" />
+      <option name="METHOD_NAME" value="zeroPow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,17 +192,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainDemo (1)" />
-        <item itemvalue="Application.MainDemo" />
-        <item itemvalue="JUnit.MyStackTest.iterator" />
-        <item itemvalue="JUnit.MyStackTest.containsAll" />
-        <item itemvalue="JUnit.MyStackTest.removeAll" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PowerCalcTest.differentCombinations" />
+        <item itemvalue="JUnit.PowerCalcTest" />
+        <item itemvalue="JUnit.PowerCalcTest.zeroPow" />
+        <item itemvalue="Application.PowerCalc" />
       </list>
     </recent_temporary>
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -312,7 +324,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594846918785</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="HW20 first commit">
+      <created>1595147439897</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595147439897</updated>
+    </task>
+    <task id="LOCAL-00018" summary="HW22:&#10;very simple&#10;f016441d00c16c9b912d05e9d81d894d&#10;&#10;simple (настоящее слово)&#10;5ebe2294ecd0e0f08eab7690d2a6ee69&#10;&#10;decrypted. solo thread">
+      <created>1595713621297</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1595713621297</updated>
+    </task>
+    <task id="LOCAL-00019" summary="HW24: pow (log(n))">
+      <created>1596975486385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1596975486386</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,17 +374,20 @@
     <MESSAGE value="HW18 (saving to *.json)&#10;complete" />
     <MESSAGE value="HW17 (MyStack&lt;E extends Comparable&lt;E&gt;&gt; implements Collection&lt;E&gt;)&#10;complete with tests" />
     <MESSAGE value="HW19: complete. O(n)-notation" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW19: complete. O(n)-notation" />
+    <MESSAGE value="HW20 first commit" />
+    <MESSAGE value="HW22:&#10;very simple&#10;f016441d00c16c9b912d05e9d81d894d&#10;&#10;simple (настоящее слово)&#10;5ebe2294ecd0e0f08eab7690d2a6ee69&#10;&#10;decrypted. solo thread" />
+    <MESSAGE value="HW24: pow (log(n))" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW24: pow (log(n))" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="110" key="#Inspections" timestamp="1594503965733">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="363" y="110" key="#Inspections/0.0.1474.864@0.0.1474.864" timestamp="1594503965733" />
-    <state x="329" y="90" width="816" height="730" key="#Intentions" timestamp="1594558575045">
+    <state x="329" y="90" width="816" height="730" key="#Intentions" timestamp="1596976149971">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="329" y="90" width="816" height="730" key="#Intentions/0.0.1474.864@0.0.1474.864" timestamp="1594558575045" />
+    <state x="329" y="90" width="816" height="730" key="#Intentions/0.0.1474.864@0.0.1474.864" timestamp="1596976149971" />
     <state x="338" y="35" key="#MyMapTest.entrySet" timestamp="1594488530189">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -364,61 +400,61 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="93" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1474.864@0.0.1474.864" timestamp="1593957611809" />
-    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1594558538387">
+    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1596967573863">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1594558538387" />
-    <state x="567" y="115" width="668" height="522" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1594502152714">
+    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1596967573863" />
+    <state x="567" y="115" width="668" height="522" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1596966730337">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="567" y="115" width="668" height="522" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1474.864@0.0.1474.864" timestamp="1594502152714" />
-    <state x="467" y="186" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1594494676171">
+    <state x="567" y="115" width="668" height="522" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1474.864@0.0.1474.864" timestamp="1596966730337" />
+    <state x="467" y="186" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1596967230396">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="467" y="186" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1474.864@0.0.1474.864" timestamp="1594494676171" />
-    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1595146653411">
+    <state x="467" y="186" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1474.864@0.0.1474.864" timestamp="1596967230396" />
+    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1596970748680">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1595146653411" />
-    <state width="1429" height="101" key="GridCell.Tab.0.bottom" timestamp="1595146656834">
+    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1596970748680" />
+    <state width="1429" height="299" key="GridCell.Tab.0.bottom" timestamp="1596980011563">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="101" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1595146656834" />
+    <state width="1429" height="299" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1596980011563" />
     <state width="1489" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="101" key="GridCell.Tab.0.center" timestamp="1595146656833">
+    <state width="1429" height="299" key="GridCell.Tab.0.center" timestamp="1596980011563">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="101" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1595146656833" />
+    <state width="1429" height="299" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1596980011563" />
     <state width="1489" height="275" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="101" key="GridCell.Tab.0.left" timestamp="1595146656833">
+    <state width="1429" height="299" key="GridCell.Tab.0.left" timestamp="1596980011563">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="101" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1595146656833" />
+    <state width="1429" height="299" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1596980011563" />
     <state width="1489" height="275" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="101" key="GridCell.Tab.0.right" timestamp="1595146656833">
+    <state width="1429" height="299" key="GridCell.Tab.0.right" timestamp="1596980011563">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="101" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1595146656833" />
+    <state width="1429" height="299" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1596980011563" />
     <state width="1489" height="275" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="275" key="GridCell.Tab.1.bottom" timestamp="1594562525628">
+    <state width="1429" height="246" key="GridCell.Tab.1.bottom" timestamp="1596977712664">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1594562525628" />
+    <state width="1429" height="246" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1596977712664" />
     <state width="1489" height="275" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.center" timestamp="1594562525626">
+    <state width="1429" height="246" key="GridCell.Tab.1.center" timestamp="1596977712664">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1594562525626" />
+    <state width="1429" height="246" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1596977712664" />
     <state width="1489" height="275" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.left" timestamp="1594562525625">
+    <state width="1429" height="246" key="GridCell.Tab.1.left" timestamp="1596977712663">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1594562525625" />
+    <state width="1429" height="246" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1596977712663" />
     <state width="1489" height="275" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
-    <state width="1429" height="275" key="GridCell.Tab.1.right" timestamp="1594562525627">
+    <state width="1429" height="246" key="GridCell.Tab.1.right" timestamp="1596977712664">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="275" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1594562525627" />
+    <state width="1429" height="246" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1596977712664" />
     <state width="1489" height="275" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
     <state x="139" y="68" key="MergeDialog" timestamp="1594846707477">
       <screen x="0" y="0" width="1474" height="864" />
@@ -428,10 +464,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="375" y="192" key="MultipleFileMergeDialog/0.0.1474.864@0.0.1474.864" timestamp="1594846707493" />
-    <state x="100" y="0" key="SettingsEditor" timestamp="1595147196599">
+    <state x="100" y="0" key="SettingsEditor" timestamp="1596967509021">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="100" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1595147196599" />
+    <state x="100" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1596967509021" />
     <state x="226" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592770060586" />
     <state x="459" y="177" width="540" height="524" key="StructurePopup" timestamp="1593251661191">
       <screen x="0" y="0" width="1474" height="864" />
@@ -441,22 +477,26 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="571" height="452" key="SwitcherDM/0.0.1474.864@0.0.1474.864" timestamp="1594556109038" />
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1594846927168">
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1596975493437">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1594846927168" />
-    <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595145469539">
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1596975493437" />
+    <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596967496683">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1474.864@0.0.1474.864" timestamp="1595145469539" />
+    <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1474.864@0.0.1474.864" timestamp="1596967496683" />
+    <state x="349" y="335" key="com.intellij.jarRepository.RepositoryAttachDialog-SEARCH" timestamp="1596967308809">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="349" y="335" key="com.intellij.jarRepository.RepositoryAttachDialog-SEARCH/0.0.1474.864@0.0.1474.864" timestamp="1596967308809" />
     <state x="546" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593251694861">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="546" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1593251694861" />
-    <state x="501" y="99" width="758" height="633" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594558428348">
+    <state x="501" y="99" width="758" height="633" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596976176654">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="501" y="99" width="758" height="633" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1474.864@0.0.1474.864" timestamp="1594558428348" />
+    <state x="501" y="99" width="758" height="633" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1474.864@0.0.1474.864" timestamp="1596976176654" />
     <state x="93" y="93" width="1288" height="678" key="dock-window-1" timestamp="1593944360015">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -477,6 +517,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="447" y="165" width="579" height="534" key="find.popup/0.0.1474.864@0.0.1474.864" timestamp="1593260220057" />
+    <state x="490" y="275" key="git4idea.ui.GitTagDialog" timestamp="1595713655991">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="490" y="275" key="git4idea.ui.GitTagDialog/0.0.1474.864@0.0.1474.864" timestamp="1595713655991" />
     <state x="443" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1593956014512">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -485,10 +529,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="394" y="199" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1594839856220" />
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595146651433">
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595147860300">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1595146651433" />
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1595147860300" />
     <state x="417" y="181" width="701" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592769924816" />
   </component>
 </project>
