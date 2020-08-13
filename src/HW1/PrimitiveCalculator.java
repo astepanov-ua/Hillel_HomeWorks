@@ -32,27 +32,17 @@ public class PrimitiveCalculator {
         Scanner scanner3 = new Scanner(System.in);
         do {
             String operation = scanner3.next();
-            switch (operation) {
-                case "+": {
-                    System.out.println("Sum  is: " + (numberOne + numberTwo));
-                    break;
-                }
-                case "-": {
-                    System.out.println("Diff is: " + (numberOne - numberTwo));
-                    break;
-                }
-                case "*": {
-                    System.out.println("Mult is: " + (numberOne * numberTwo));
-                    break;
-                }
-                case "/": {
-                    System.out.println("Div  is: " + (numberOne / numberTwo));
-                    break;
-                }
-                default: {
-                    System.out.println(alert);
-                    hasNotResult = true;
-                }
+            if ("+".equals(operation)) {
+                System.out.println("Sum  is: " + (numberOne + numberTwo));
+            } else if ("-".equals(operation)) {
+                System.out.println("Diff is: " + (numberOne - numberTwo));
+            } else if ("*".equals(operation)) {
+                System.out.println("Mult is: " + (numberOne * numberTwo));
+            } else if ("/".equals(operation)) {
+                System.out.println("Div  is: " + (numberOne / numberTwo));
+            } else {
+                System.out.println(alert);
+                hasNotResult = true;
             }
         }
         while (hasNotResult);
