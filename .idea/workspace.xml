@@ -29,11 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW26: SimpleFunc 2.1">
-      <change afterPath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW27_Stream_Declarative/StudentFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/PrimitiveCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/PrimitiveCalculator.java" afterDir="false" />
+    </list>
+    <list id="6fc5cbe1-5754-43bd-ad8e-870a6bc31798" name="HW27  refactoring" comment="">
+      <change beforePath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW27_Stream_Declarative/StudentFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW27_Stream_Declarative/StudentFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/webapps/HelloServlet/WEB-INF/web.xml.txt" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -103,7 +103,7 @@
       <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\HW12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.PrimitiveCalculator">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW26_SimpleFunctions.Main" />
       <module name="Hillel_HomeWorks" />
@@ -143,17 +143,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerCalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimitiveCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.PrimitiveCalculator" />
       <module name="Hillel_HomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW24_Pow.*" />
+          <option name="PATTERN" value="HW1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW24_Pow" />
-      <option name="MAIN_CLASS_NAME" value="HW24_Pow.PowerCalcTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimitiveCalculator" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PowerCalcTest.differentCombinations" />
-        <item itemvalue="JUnit.PowerCalcTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +189,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="" />
+      <changelist id="6fc5cbe1-5754-43bd-ad8e-870a6bc31798" name="HW27  refactoring" comment="" />
       <created>1591220610508</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -436,29 +435,29 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="467" y="186" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1474.864@0.0.1474.864" timestamp="1596967230396" />
-    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1596995263709">
+    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1597938517824">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1596995263709" />
-    <state width="1429" height="186" key="GridCell.Tab.0.bottom" timestamp="1597328504964">
+    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1597938517824" />
+    <state width="1429" height="186" key="GridCell.Tab.0.bottom" timestamp="1597422517946">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="186" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1597328504964" />
+    <state width="1429" height="186" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1597422517946" />
     <state width="1489" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="186" key="GridCell.Tab.0.center" timestamp="1597328504964">
+    <state width="1429" height="186" key="GridCell.Tab.0.center" timestamp="1597422517946">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="186" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1597328504964" />
+    <state width="1429" height="186" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1597422517946" />
     <state width="1489" height="275" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="186" key="GridCell.Tab.0.left" timestamp="1597328504963">
+    <state width="1429" height="186" key="GridCell.Tab.0.left" timestamp="1597422517946">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="186" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1597328504963" />
+    <state width="1429" height="186" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1597422517946" />
     <state width="1489" height="275" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="186" key="GridCell.Tab.0.right" timestamp="1597328504964">
+    <state width="1429" height="186" key="GridCell.Tab.0.right" timestamp="1597422517946">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="186" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1597328504964" />
+    <state width="1429" height="186" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1597422517946" />
     <state width="1489" height="275" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
     <state width="1429" height="246" key="GridCell.Tab.1.bottom" timestamp="1596995824592">
       <screen x="0" y="0" width="1474" height="864" />
@@ -488,6 +487,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="375" y="192" key="MultipleFileMergeDialog/0.0.1474.864@0.0.1474.864" timestamp="1594846707493" />
+    <state x="407" y="136" key="NewModule_or_Project.wizard" timestamp="1597422507833">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="407" y="136" key="NewModule_or_Project.wizard/0.0.1474.864@0.0.1474.864" timestamp="1597422507833" />
     <state x="100" y="0" key="SettingsEditor" timestamp="1596995294278">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -561,11 +564,15 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="394" y="199" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1594839856220" />
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1596995856158">
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1597422501203">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1596995856158" />
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1597422501203" />
     <state x="417" y="181" width="701" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592769924816" />
+    <state x="387" y="132" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1597422468870">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="387" y="132" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1474.864@0.0.1474.864" timestamp="1597422468870" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
