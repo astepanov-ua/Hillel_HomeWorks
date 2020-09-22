@@ -2,31 +2,31 @@ package HW27_Stream_Declarative;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+import static java.util.Optional.empty;
+import static java.util.Optional.of;
+import static java.util.stream.Collectors.toList;
 
 public class StudentFinder {
+    private List<Student> list;
+
     public StudentFinder(List<Student> list) {
         this.list = list;
     }
 
-    private List<Student> list;
-
-    public Optional<List<Student>> getList() {
-        if (list == null && list.isEmpty()) {
-            return Optional.empty();
-        }
-        Stream<Student> stream = list.stream();
-        List<Student> students = stream.filter(student -> containsMoreThenThreeVowel(student.getSurname()))
+    public Optional<List<Student>> getStudents() {
+        return (list != null || !list.isEmpty())
+                ? of(list.stream()
+                .filter(student -> containsMoreThenThreeVowel(student.getSurname()))
                 .map(student -> student.setSurnameAndReturnStudent(student.getSurname().toUpperCase()))
                 .sorted()
-                .collect(Collectors.toList());
-        return Optional.of(students);
+                .collect(toList()))
+                : empty();
     }
 
-    private boolean containsMoreThenThreeVowel(String s) {
+    private boolean containsMoreThenThreeVowel(String surname) {
         int count = 0;
-        for (char c : s.toCharArray()) {
+        for (char c : surname.toCharArray()) {
             if (isVowel(c)) {
                 count++;
             }

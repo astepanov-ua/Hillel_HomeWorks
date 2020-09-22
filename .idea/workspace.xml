@@ -28,14 +28,90 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW23: HelloServlet">
+    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW23: HelloServlet (override methods POST,GET,DELETE)">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW23_Tomcat_HelloWorld/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW23_Tomcat_HelloWorld/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_HomeWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_HomeWorks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW1/PrimitiveCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW1/PrimitiveCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW10_MyLinkedList_implements_Collecton_/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW10_MyLinkedList_implements_Collecton_/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW10_MyLinkedList_implements_Collecton_/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW10_MyLinkedList_implements_Collecton_/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW11_MyCollections_implement_Iterator/MailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW11_MyCollections_implement_Iterator/MailDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW11_MyCollections_implement_Iterator/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW11_MyCollections_implement_Iterator/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW11_MyCollections_implement_Iterator/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW11_MyCollections_implement_Iterator/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12_MyArrayList_Implements_List/ByNameHomeAnimalComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW12_MyArrayList_Implements_List/ByNameHomeAnimalComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12_MyArrayList_Implements_List/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW12_MyArrayList_Implements_List/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12_MyArrayList_Implements_List/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW12_MyArrayList_Implements_List/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW13/IntComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW13/IntComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW13/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW13/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW13/MyBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW13/MyBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW13/MyBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW13/MyBinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW15_MyMap_implements_Map/MyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW15_MyMap_implements_Map/MyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW15_MyMap_implements_Map/MyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW15_MyMap_implements_Map/MyMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW17_Collection_with_Generiks/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW17_Collection_with_Generiks/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW17_Collection_with_Generiks/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW17_Collection_with_Generiks/MyStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW18_Save_to_JSON/MainDemoJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW18_Save_to_JSON/MainDemoJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW18_Save_to_JSON/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW18_Save_to_JSON/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW18_Save_to_JSON/output_workers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW18_Save_to_JSON/output_workers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/AverageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/AverageCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/BankCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/BankCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/ConsoleDrawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/ConsoleDrawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/NumberAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/NumberAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW20_Indexes_of_two_ints_equal_some_value/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW20_Indexes_of_two_ints_equal_some_value/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW22_MD5_Brote_Force_Decrypt/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW22_MD5_Brote_Force_Decrypt/BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW22_MD5_Brote_Force_Decrypt/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW22_MD5_Brote_Force_Decrypt/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW23_Tomcat_HelloWorld/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW23_Tomcat_HelloWorld/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW24_Pow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW24_Pow/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW24_Pow/PowerCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW24_Pow/PowerCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW24_Pow/PowerCalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW24_Pow/PowerCalcTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW26_SimpleFunctions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW26_SimpleFunctions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW26_SimpleFunctions/SimpleFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW26_SimpleFunctions/SimpleFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW27_Stream_Declarative/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW27_Stream_Declarative/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW27_Stream_Declarative/StudentFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW27_Stream_Declarative/StudentFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3/DigitCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/DigitCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3/PointAndRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/PointAndRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/ClassTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/ClassTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/EducationPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/EducationPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW5/ContainerInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW5/ContainerInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Crocodile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Crocodile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Fishy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Fishy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Giraffe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Giraffe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/GuideDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/GuideDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/HomeAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/HomeAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Humster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Humster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/PredatorAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/PredatorAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/WildAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/WildAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW6/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW7/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW7/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW7/MyCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW7/MyCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW8/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW8/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW9_Search_in_MyCollectoin_and_Fibonachi/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW9_Search_in_MyCollectoin_and_Fibonachi/FibonacciNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW9_Search_in_MyCollectoin_and_Fibonachi/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW9_Search_in_MyCollectoin_and_Fibonachi/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW9_Search_in_MyCollectoin_and_Fibonachi/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW9_Search_in_MyCollectoin_and_Fibonachi/MyArrayList.java" afterDir="false" />
     </list>
-    <list id="6fc5cbe1-5754-43bd-ad8e-870a6bc31798" name="HW27  refactoring" comment="">
-      <change beforePath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW27_Stream_Declarative/StudentFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW27_Stream_Declarative/StudentFinder.java" afterDir="false" />
-    </list>
+    <list id="6fc5cbe1-5754-43bd-ad8e-870a6bc31798" name="HW27  refactoring" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +135,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1cpLVPWp5sZk0qqHFe5hpKCPzle" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,7 +162,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/webapps/HelloServlet/WEB-INF/web.xml.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB_INF" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -92,15 +175,24 @@
       <recent name="HW15_MyMap_implements_Map" />
       <recent name="HW13" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\main\java" />
+      <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="HW27_Stream_Declarative" />
       <recent name="HW17_Collection_with_Generiks" />
       <recent name="HW11" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\main\webapp\WEB_INF" />
+      <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\main\java" />
       <recent name="C:\Users\Alex.NOTEBOOOK\IdeaProjects\Hillel_HomeWorks\src\HW12" />
     </key>
   </component>
@@ -144,6 +236,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW26_SimpleFunctions.Main" />
+      <module name="Hillel_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW26_SimpleFunctions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW27_Stream_Declarative.Main" />
+      <module name="Hillel_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW27_Stream_Declarative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrimitiveCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW1.PrimitiveCalculator" />
       <module name="Hillel_HomeWorks" />
@@ -165,7 +283,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW24_Pow" />
+      <option name="PACKAGE_NAME" value="main.HW24_Pow" />
       <option name="MAIN_CLASS_NAME" value="HW24_Pow.PowerCalcTest" />
       <option name="METHOD_NAME" value="differentCombinations" />
       <option name="TEST_OBJECT" value="method" />
@@ -364,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597939145467</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="HW23: HelloServlet (override methods POST,GET,DELETE)">
+      <created>1600759581706</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1600759581706</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +526,8 @@
     <MESSAGE value="HW26: SimpleFunc 2.0" />
     <MESSAGE value="HW26: SimpleFunc 2.1" />
     <MESSAGE value="HW23: HelloServlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW23: HelloServlet" />
+    <MESSAGE value="HW23: HelloServlet (override methods POST,GET,DELETE)" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW23: HelloServlet (override methods POST,GET,DELETE)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="110" key="#Inspections" timestamp="1594503965733">
@@ -416,14 +542,18 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="338" y="35" key="#MyMapTest.entrySet/0.0.1474.864@0.0.1474.864" timestamp="1594488530189" />
+    <state x="488" y="255" key="#Notifications" timestamp="1600759631161">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="488" y="255" key="#Notifications/0.0.1474.864@0.0.1474.864" timestamp="1600759631161" />
     <state x="329" y="72" key="#Plugins" timestamp="1600759078455">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="329" y="72" key="#Plugins/0.0.1474.864@0.0.1474.864" timestamp="1600759078455" />
-    <state x="217" y="6" key="#Project_Structure" timestamp="1596995357487">
+    <state x="217" y="6" key="#Project_Structure" timestamp="1600784547626">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="217" y="6" key="#Project_Structure/0.0.1474.864@0.0.1474.864" timestamp="1596995357487" />
+    <state x="217" y="6" key="#Project_Structure/0.0.1474.864@0.0.1474.864" timestamp="1600784547626" />
     <state x="93" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593957611809">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -440,18 +570,26 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="417" y="167" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1474.864@0.0.1474.864" timestamp="1600758922913" />
-    <state x="534" y="338" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1597322563179">
+    <state x="335" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600787168721">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="534" y="338" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1474.864@0.0.1474.864" timestamp="1597322563179" />
+    <state x="335" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1474.864@0.0.1474.864" timestamp="1600787168721" />
+    <state x="534" y="338" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1600787180227">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="534" y="338" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1474.864@0.0.1474.864" timestamp="1600787180227" />
     <state x="467" y="186" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1596967230396">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="467" y="186" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1474.864@0.0.1474.864" timestamp="1596967230396" />
-    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1597938517824">
+    <state x="93" y="93" width="1288" height="678" key="DiffContextDialog" timestamp="1600759842804">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1597938517824" />
+    <state x="93" y="93" width="1288" height="678" key="DiffContextDialog/0.0.1474.864@0.0.1474.864" timestamp="1600759842804" />
+    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1600782506663">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1600782506663" />
     <state width="1473" height="185" key="GridCell.Tab.0.bottom" timestamp="1600758905304">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -492,6 +630,10 @@
     </state>
     <state width="1429" height="246" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1596995824591" />
     <state width="1489" height="275" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1592770032757" />
+    <state x="150" y="173" key="Maven.ArtifactSearchDialog" timestamp="1600786200892">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="150" y="173" key="Maven.ArtifactSearchDialog/0.0.1474.864@0.0.1474.864" timestamp="1600786200892" />
     <state x="139" y="68" key="MergeDialog" timestamp="1594846707477">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -504,10 +646,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="407" y="136" key="NewModule_or_Project.wizard/0.0.1474.864@0.0.1474.864" timestamp="1597422507833" />
-    <state x="100" y="0" key="SettingsEditor" timestamp="1596995294278">
+    <state x="100" y="0" key="SettingsEditor" timestamp="1600769247522">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="100" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1596995294278" />
+    <state x="100" y="0" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1600769247522" />
     <state x="226" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592770060586" />
     <state x="459" y="177" width="540" height="524" key="StructurePopup" timestamp="1593251661191">
       <screen x="0" y="0" width="1474" height="864" />
@@ -517,10 +659,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="571" height="452" key="SwitcherDM/0.0.1474.864@0.0.1474.864" timestamp="1594556109038" />
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1600759486135">
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1600759587805">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1600759486135" />
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1600759587805" />
     <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596967496683">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -565,10 +707,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="490" y="275" key="git4idea.ui.GitTagDialog/0.0.1474.864@0.0.1474.864" timestamp="1595713655991" />
-    <state x="177" y="52" key="new project wizard" timestamp="1596995093808">
+    <state x="177" y="52" key="new project wizard" timestamp="1600781693073">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="177" y="52" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1596995093808" />
+    <state x="177" y="52" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1600781693073" />
     <state x="443" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1597327673413">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -577,10 +719,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="394" y="199" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1594839856220" />
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1597422501203">
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1600769126937">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1597422501203" />
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1600769126937" />
     <state x="417" y="181" width="701" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592769924816" />
     <state x="387" y="132" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1597422468870">
       <screen x="0" y="0" width="1474" height="864" />

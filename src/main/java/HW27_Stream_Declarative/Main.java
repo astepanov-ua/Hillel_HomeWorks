@@ -16,7 +16,7 @@ public class Main {
 
         StudentFinder studentFinder = new StudentFinder(students);
 
-        for (Student student : studentFinder.getList().get()) {
+        for (Student student : studentFinder.getStudents().get()) {
             System.out.println(student.getSurname());
         }
     }

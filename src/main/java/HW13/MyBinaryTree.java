@@ -1,7 +1,9 @@
 package HW13;
 
-import javax.sound.midi.Soundbank;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.Iterator;
 
 public class MyBinaryTree implements Collection {
     private Comparator comparator;

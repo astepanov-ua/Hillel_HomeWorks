@@ -160,7 +160,7 @@ public class MyMap implements Map {
     @Override
     public Set entrySet() {
         Set entrySet = new HashSet();
-        for (MyMap.MyEntry e : table) {
+        for (MyEntry e : table) {
             if (e != null) {
                 entrySet.add(e);
             }
