@@ -28,8 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW26: SimpleFunc 2.1">
+    <list default="true" id="fa1d0752-2500-4573-9c4c-81445f802c08" name="Default Changelist" comment="HW23: HelloServlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW23_Tomcat_HelloWorld/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW23_Tomcat_HelloWorld/HelloServlet.java" afterDir="false" />
     </list>
     <list id="6fc5cbe1-5754-43bd-ad8e-870a6bc31798" name="HW27  refactoring" comment="">
       <change beforePath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW27_Stream_Declarative/Main.java" afterDir="false" />
@@ -356,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596992630743</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="HW23: HelloServlet">
+      <created>1597939145467</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1597939145467</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,7 +400,8 @@
     <MESSAGE value="HW26: SimpleFunc 1/0" />
     <MESSAGE value="HW26: SimpleFunc 2.0" />
     <MESSAGE value="HW26: SimpleFunc 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW26: SimpleFunc 2.1" />
+    <MESSAGE value="HW23: HelloServlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW23: HelloServlet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="110" key="#Inspections" timestamp="1594503965733">
@@ -407,10 +416,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="338" y="35" key="#MyMapTest.entrySet/0.0.1474.864@0.0.1474.864" timestamp="1594488530189" />
-    <state x="622" y="294" key="#Notifications" timestamp="1592063115964">
+    <state x="329" y="72" key="#Plugins" timestamp="1600759078455">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="622" y="294" key="#Notifications/0.0.1474.864@0.0.1474.864" timestamp="1592063115964" />
+    <state x="329" y="72" key="#Plugins/0.0.1474.864@0.0.1474.864" timestamp="1600759078455" />
     <state x="217" y="6" key="#Project_Structure" timestamp="1596995357487">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -419,14 +428,18 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="93" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1474.864@0.0.1474.864" timestamp="1593957611809" />
-    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1597325735492">
+    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1600757318267">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1597325735492" />
+    <state x="542" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1600757318267" />
     <state x="567" y="115" width="668" height="522" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1596966730337">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="567" y="115" width="668" height="522" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1474.864@0.0.1474.864" timestamp="1596966730337" />
+    <state x="417" y="167" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600758922913">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="417" y="167" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1474.864@0.0.1474.864" timestamp="1600758922913" />
     <state x="534" y="338" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1597322563179">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -439,25 +452,25 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1597938517824" />
-    <state width="1429" height="186" key="GridCell.Tab.0.bottom" timestamp="1597422517946">
+    <state width="1473" height="185" key="GridCell.Tab.0.bottom" timestamp="1600758905304">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="186" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1597422517946" />
+    <state width="1473" height="185" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1600758905304" />
     <state width="1489" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="186" key="GridCell.Tab.0.center" timestamp="1597422517946">
+    <state width="1473" height="185" key="GridCell.Tab.0.center" timestamp="1600758905303">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="186" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1597422517946" />
+    <state width="1473" height="185" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1600758905303" />
     <state width="1489" height="275" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="186" key="GridCell.Tab.0.left" timestamp="1597422517946">
+    <state width="1473" height="185" key="GridCell.Tab.0.left" timestamp="1600758905303">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="186" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1597422517946" />
+    <state width="1473" height="185" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1600758905303" />
     <state width="1489" height="275" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
-    <state width="1429" height="186" key="GridCell.Tab.0.right" timestamp="1597422517946">
+    <state width="1473" height="185" key="GridCell.Tab.0.right" timestamp="1600758905304">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1429" height="186" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1597422517946" />
+    <state width="1473" height="185" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1600758905304" />
     <state width="1489" height="275" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592770069158" />
     <state width="1429" height="246" key="GridCell.Tab.1.bottom" timestamp="1596995824592">
       <screen x="0" y="0" width="1474" height="864" />
@@ -504,10 +517,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="571" height="452" key="SwitcherDM/0.0.1474.864@0.0.1474.864" timestamp="1594556109038" />
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1596992633323">
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2" timestamp="1600759486135">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1596992633323" />
+    <state x="329" y="164" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1600759486135" />
     <state x="466" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596967496683">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
